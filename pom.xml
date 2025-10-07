@@ -11,7 +11,7 @@
 
     <groupId>guru.nicks</groupId>
     <artifactId>bom</artifactId>
-    <version>0.1.0-alpha.2</version>
+    <version>0.1.0-alpha.3</version>
     <packaging>pom</packaging>
 
     <name>Bill of Materials</name>
@@ -64,6 +64,17 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>cucumber-test-starter</artifactId>
+                <version>0.1.0-alpha.1</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>utils</artifactId>
+                <version>0.1.0-alpha.1</version>
+            </dependency>
+
             <!-- encode log messages as JSON -->
             <dependency>
                 <groupId>net.logstash.logback</groupId>
