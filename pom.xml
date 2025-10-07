@@ -16,6 +16,7 @@
 
     <name>Bill of Materials</name>
     <description>Dependency versions</description>
+    <url>https://nicks.guru</url>
 
     <licenses>
         <license>
