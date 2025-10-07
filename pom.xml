@@ -592,6 +592,7 @@
                     <version>0.2.2</version>
                 </plugin>
 
+                <!-- publishing -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
@@ -607,6 +608,11 @@
                     <artifactId>maven-gpg-plugin</artifactId>
                     <version>3.2.8</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.sonatype.central</groupId>
+                    <artifactId>central-publishing-maven-plugin</artifactId>
+                    <version>0.9.0</version>
+                </plugin>
             </plugins>
         </pluginManagement>
 
@@ -617,6 +623,15 @@
                 <artifactId>maven-gpg-plugin</artifactId>
                 <configuration>
                     <keyname>${gpg.keyname}</keyname>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>central</publishingServerId>
                 </configuration>
             </plugin>
         </plugins>
