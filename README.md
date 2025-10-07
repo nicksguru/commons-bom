@@ -13,8 +13,8 @@ This BOM provides centralized dependency management for:
 
 ## Usage
 
-Add this BOM to your project's `pom.xml` picking the most recent version from the
-[Maven registry](https://central.sonatype.com/search?q=guru.nicks):
+Add this BOM to your project's `pom.xml` picking the most recent version from
+[Maven Central](https://central.sonatype.com/namespace/guru.nicks):
 
 ```xml
 <dependencyManagement>
