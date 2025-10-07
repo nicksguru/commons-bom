@@ -160,6 +160,17 @@
                 <version>3.4.0</version>
                 <type>pom</type>
                 <scope>import</scope>
+                <!-- exclude SNAPSHOT dependencies (rejected by Maven Central) -->
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.modulith</groupId>
+                        <artifactId>spring-modulith-events-aws-sns</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.springframework.modulith</groupId>
+                        <artifactId>spring-modulith-events-aws-sqs</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <!-- AWS dependencies for S3 etc., as per https://github.com/aws/aws-sdk-java-v2#importing-the-bom -->
