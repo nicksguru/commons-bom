@@ -11,7 +11,7 @@
 
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
-    <version>0.1.0-alpha.5</version>
+    <version>0.1.0-alpha.6</version>
     <packaging>pom</packaging>
 
     <name>Bill of Materials</name>
@@ -68,17 +68,17 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>cucumber-test-starter</artifactId>
-                <version>0.1.0-alpha.5</version>
+                <version>0.1.0-alpha.6</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>integration-test-starter</artifactId>
-                <version>0.1.0-alpha.5</version>
+                <version>0.1.0-alpha.6</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>utils</artifactId>
-                <version>0.1.0-alpha.5</version>
+                <version>0.1.0-alpha.6</version>
             </dependency>
 
             <!-- encode log messages as JSON -->
