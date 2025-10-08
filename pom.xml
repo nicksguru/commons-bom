@@ -11,7 +11,7 @@
 
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
-    <version>0.1.0-alpha.6</version>
+    <version>0.1.0-alpha.7</version>
     <packaging>pom</packaging>
 
     <name>Bill of Materials</name>
@@ -65,21 +65,28 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- start of project group -->
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>cucumber-test-starter</artifactId>
-                <version>0.1.0-alpha.6</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>integration-test-starter</artifactId>
-                <version>0.1.0-alpha.6</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>utils</artifactId>
-                <version>0.1.0-alpha.6</version>
+                <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>design-patterns</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!-- end of project group -->
 
             <!-- encode log messages as JSON -->
             <dependency>
