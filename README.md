@@ -1,6 +1,6 @@
 # Bill of Materials (BOM)
 
-A comprehensive Maven Bill of Materials for managing dependency versions across Spring Boot-based projects.
+A comprehensive Maven Bill of Materials for managing dependency versions across all Commons modules.
 
 ## Overview
 

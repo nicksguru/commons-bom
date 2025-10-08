@@ -11,11 +11,11 @@
 
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
-    <version>0.1.0-alpha.4</version>
+    <version>0.1.0-alpha.1</version>
     <packaging>pom</packaging>
 
-    <name>Commons / Bill of Materials</name>
-    <description>Dependency versions</description>
+    <name>Bill of Materials</name>
+    <description>Dependency versions holder</description>
     <url>https://nicks.guru</url>
 
     <licenses>
