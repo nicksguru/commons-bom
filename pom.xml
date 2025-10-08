@@ -68,17 +68,17 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>cucumber-test-starter</artifactId>
-                <version>0.1.0-alpha.4</version>
+                <version>0.1.0-alpha.1</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>integration-test-starter</artifactId>
-                <version>0.1.0-alpha.4</version>
+                <version>0.1.0-alpha.1</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>utils</artifactId>
-                <version>0.1.0-alpha.4</version>
+                <version>0.1.0-alpha.1</version>
             </dependency>
 
             <!-- encode log messages as JSON -->
