@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>guru.nicks</groupId>
+    <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <version>0.1.0-alpha.4</version>
     <packaging>pom</packaging>
 
-    <name>Bill of Materials</name>
+    <name>Commons / Bill of Materials</name>
     <description>Dependency versions</description>
     <url>https://nicks.guru</url>
 
