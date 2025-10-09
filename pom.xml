@@ -7,10 +7,10 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>0.1.0-alpha.8</version>
+    <version>0.1.0-alpha.9</version>
     <packaging>pom</packaging>
 
-    <name>Commons BOM</name>
+    <name>Nicks.Guru Commons BOM</name>
     <description>Commons modules versions for easy import</description>
     <url>https://nicks.guru</url>
 
@@ -37,7 +37,7 @@
     </scm>
 
     <properties>
-        <guru.nicks.commons.version>0.1.0-alpha.8</guru.nicks.commons.version>
+        <guru.nicks.commons.version>0.1.0-alpha.9</guru.nicks.commons.version>
     </properties>
 
     <dependencyManagement>
