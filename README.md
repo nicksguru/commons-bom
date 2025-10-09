@@ -1,20 +1,11 @@
 # Bill of Materials (BOM)
 
-A comprehensive Maven Bill of Materials for managing dependency versions across all Commons modules.
-
-## Overview
-
-This BOM provides centralized dependency management for:
-- **Spring Boot & Spring Cloud** - Core framework and microservices support
-- **TestContainers** - Integration testing with containerized databases
-- **Camunda BPM** - Business process management and workflow engine
-- **AWS SDK** - Amazon Web Services integration
-- **Other libraries** - Security, monitoring, caching, and more
+Defines Commons modules versions for easy import.
 
 ## Usage
 
-Add this BOM to your project's `pom.xml` picking the most recent version from
-[Maven Central](https://central.sonatype.com/namespace/guru.nicks.commons):
+Pick the most recent version from
+[Maven Central](https://central.sonatype.com/namespace/guru.nicks.commons), then use as follows:
 
 ```xml
 <dependencyManagement>
@@ -28,6 +19,13 @@ Add this BOM to your project's `pom.xml` picking the most recent version from
         </dependency>
     </dependencies>
 </dependencyManagement>
+
+<dependencies>
+    <dependency>
+        <groupId>guru.nicks.commons</groupId>
+        <artifactId>...</artifactId>
+    </dependency>
+</dependencies>
 ```
 
 ## Disclaimer
