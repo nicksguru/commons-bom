@@ -1,6 +1,6 @@
 # Bill of Materials (BOM)
 
-Defines Commons modules versions for easy import.
+Commons modules versions for easy import.
 
 ## Usage
 

@@ -9,8 +9,8 @@
     <version>0.1.0-alpha.8</version>
     <packaging>pom</packaging>
 
-    <name>Commons modules versions for easy import</name>
-    <description>Dependency versions holder</description>
+    <name>Commons BOM</name>
+    <description>Commons modules versions for easy import</description>
     <url>https://nicks.guru</url>
 
     <licenses>
