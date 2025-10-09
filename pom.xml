@@ -7,7 +7,7 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>0.1.0-alpha.9</version>
+    <version>0.1.0-alpha.10</version>
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
@@ -37,7 +37,7 @@
     </scm>
 
     <properties>
-        <guru.nicks.commons.version>0.1.0-alpha.9</guru.nicks.commons.version>
+        <guru.nicks.commons.version>0.1.0-alpha.10</guru.nicks.commons.version>
     </properties>
 
     <dependencyManagement>
@@ -60,6 +60,11 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>design-patterns</artifactId>
+                <version>${guru.nicks.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>rest-dto</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
         </dependencies>
