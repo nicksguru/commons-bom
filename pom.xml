@@ -7,7 +7,7 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>0.1.0-alpha.10</version><!-- [BVM] -->
+    <version>0.1.0-alpha.11</version><!-- [BVM] -->
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
@@ -37,34 +37,39 @@
     </scm>
 
     <properties>
-        <guru.nicks.commons.version>0.1.0-alpha.10</guru.nicks.commons.version><!-- [BVM] -->
+        <guru.nicks.commons.version>0.1.0-alpha.11</guru.nicks.commons.version><!-- [BVM] -->
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>guru.nicks.commons</groupId>
                 <artifactId>cucumber-test-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>guru.nicks.commons</groupId>
                 <artifactId>integration-test-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>guru.nicks.commons</groupId>
                 <artifactId>utils</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>guru.nicks.commons</groupId>
                 <artifactId>design-patterns</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>guru.nicks.commons</groupId>
                 <artifactId>rest-dto</artifactId>
+                <version>${guru.nicks.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>guru.nicks.commons</groupId>
+                <artifactId>qr-code-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
         </dependencies>
