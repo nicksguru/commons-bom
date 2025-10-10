@@ -7,7 +7,7 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>0.1.0-alpha.11</version><!-- [BVM] -->
+    <version>0.1.0-alpha.12</version><!-- [BVM] -->
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
@@ -37,7 +37,7 @@
     </scm>
 
     <properties>
-        <guru.nicks.commons.version>0.1.0-alpha.11</guru.nicks.commons.version><!-- [BVM] -->
+        <guru.nicks.commons.version>0.1.0-alpha.12</guru.nicks.commons.version><!-- [BVM] -->
     </properties>
 
     <dependencyManagement>
@@ -70,6 +70,11 @@
             <dependency>
                 <groupId>guru.nicks.commons</groupId>
                 <artifactId>qr-code-starter</artifactId>
+                <version>${guru.nicks.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>guru.nicks.commons</groupId>
+                <artifactId>freemarker-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
         </dependencies>
