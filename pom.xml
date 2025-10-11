@@ -7,7 +7,7 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>0.1.0-alpha.18</version><!-- [BVM] -->
+    <version>0.1.0-alpha.19</version><!-- [BVM] -->
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
@@ -37,7 +37,7 @@
     </scm>
 
     <properties>
-        <guru.nicks.commons.version>0.1.0-alpha.18</guru.nicks.commons.version><!-- [BVM] -->
+        <guru.nicks.commons.version>0.1.0-alpha.19</guru.nicks.commons.version><!-- [BVM] -->
     </properties>
 
     <dependencyManagement>
@@ -93,6 +93,11 @@
             <dependency>
                 <groupId>guru.nicks.commons</groupId>
                 <artifactId>swagger-starter</artifactId>
+                <version>${guru.nicks.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>guru.nicks.commons</groupId>
+                <artifactId>jpa-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
         </dependencies>
