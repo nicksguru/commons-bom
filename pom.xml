@@ -7,12 +7,12 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>0.1.0-alpha.25</version><!-- [BVM] -->
+    <version>1.0.0-rc.1</version><!-- [BVM] -->
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
     <description>Commons modules versions for easy import</description>
-    <url>https://nicks.guru</url>
+    <url>https://github.com/nicksguru/commons-bom</url>
 
     <licenses>
         <license>
@@ -21,23 +21,25 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
     <developers>
         <developer>
             <name>Nick S.</name>
             <email>job-offers@nicks.guru</email>
-            <organizationUrl>https://nicks.guru</organizationUrl>
+            <url>https://nicks.guru</url>
         </developer>
     </developers>
-
     <scm>
-        <connection>https://nicks.guru</connection>
-        <developerConnection>https://nicks.guru</developerConnection>
-        <url>https://nicks.guru</url>
+        <connection>scm:git:git://github.com/nicksguru/commons-bom.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/nicksguru/commons-bom.git</developerConnection>
+        <url>https://github.com/nicksguru/commons-bom</url>
     </scm>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/nicksguru/commons-bom/issues</url>
+    </issueManagement>
 
     <properties>
-        <guru.nicks.commons.version>0.1.0-alpha.25</guru.nicks.commons.version><!-- [BVM] -->
+        <guru.nicks.commons.version>1.0.0-rc.1</guru.nicks.commons.version><!-- [BVM] -->
     </properties>
 
     <dependencyManagement>
