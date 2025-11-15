@@ -1,5 +1,7 @@
 # [Nicks.Guru](https://nicks.guru) Commons BOM (Bill of Materials)
 
+<img alt="Latest version" src="https://img.shields.io/maven-central/v/guru.nicks.commons/bom?filter=!25*&label=Latest%20version:&cacheSeconds=7200"> <img alt="Release date"  src="https://img.shields.io/maven-central/last-update/guru.nicks.commons/bom?label=&cacheSeconds=7200">
+
 Module versions for easy and consistent import.
 
 ## Versioning
@@ -12,6 +14,7 @@ The version format is inspired by [Scalver](https://scalver.org) and looks like 
 * `N`  - incremental build number, starts from 0 every month
 
 ## Usage
+
 
 See full version history on
 [Maven Central](https://central.sonatype.com/namespace/guru.nicks.commons), use as follows:

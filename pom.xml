@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
-    <description>Commons modules versions for easy import</description>
+    <description>Module versions for easy and consistent import</description>
     <url>https://github.com/nicksguru/commons-bom</url>
 
     <licenses>
