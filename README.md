@@ -1,8 +1,8 @@
 # [Nicks.Guru](https://nicks.guru) Commons BOM (Bill of Materials)
 
+![Latest version](https://img.shields.io/maven-central/v/guru.nicks.commons/bom?filter=!25.*&label=Latest%20version:&cacheSeconds=10800)
 :rocket:
-![Latest version](https://img.shields.io/maven-central/v/guru.nicks.commons/bom?filter=!25.*&label=Latest%20version:&cacheSeconds=7200)
-![Release date](https://img.shields.io/maven-central/last-update/guru.nicks.commons/bom?label=&color=orange&cacheSeconds=7200)
+![Release date](https://img.shields.io/maven-central/last-update/guru.nicks.commons/bom?label=&color=orange&cacheSeconds=10800)
 
 Module versions for easy and consistent import.
 
