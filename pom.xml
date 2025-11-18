@@ -154,6 +154,11 @@
                 <artifactId>redis-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
+            <dependency>
+                <groupId>guru.nicks.commons</groupId>
+                <artifactId>aws-s3-starter</artifactId>
+                <version>${guru.nicks.commons.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
