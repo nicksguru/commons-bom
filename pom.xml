@@ -91,6 +91,11 @@
                 <artifactId>notification-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
+            <dependency>
+                <groupId>guru.nicks.commons</groupId>
+                <artifactId>aws-s3-starter</artifactId>
+                <version>${guru.nicks.commons.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>guru.nicks.commons</groupId>
@@ -156,7 +161,7 @@
             </dependency>
             <dependency>
                 <groupId>guru.nicks.commons</groupId>
-                <artifactId>aws-s3-starter</artifactId>
+                <artifactId>mongo-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
         </dependencies>
