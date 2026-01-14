@@ -36,12 +36,22 @@ See full version history on
 </dependencyManagement>
 
 <dependencies>
-    <dependency>
-        <groupId>guru.nicks.commons</groupId>
-        <artifactId>...</artifactId>
-    </dependency>
+  <dependency>
+      <groupId>guru.nicks.commons</groupId>
+      <artifactId>...</artifactId>
+  </dependency>
 </dependencies>
 ```
+
+## AI Tip
+
+Grab a 10% discount on **GLM 4.7 Coding Plan** model.
+
+🚀 Full support for 10+ top coding tools such as Claude Code, Cursor, Cline, Kilo Code, Roo Code, Sweep AI - starting at
+just $3 per month. **[Subscribe now](https://z.ai/subscribe?ic=FQFBJRY7RM)** and take advantage of the limited-time
+offer.
+
+![score](assets/glm47-score.png)
 
 ## Disclaimer
 
