@@ -7,7 +7,7 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>100.260114.0</version><!-- [PVM] -->
+    <version>100.260116.0</version><!-- [PVM] -->
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
@@ -39,7 +39,7 @@
     </issueManagement>
 
     <properties>
-        <guru.nicks.commons.version>100.260114.0</guru.nicks.commons.version><!-- [PVM] -->
+        <guru.nicks.commons.version>100.260116.0</guru.nicks.commons.version><!-- [PVM] -->
     </properties>
 
     <dependencyManagement>
@@ -83,6 +83,11 @@
 
             <dependency>
                 <groupId>guru.nicks.commons</groupId>
+                <artifactId>aws-s3-starter</artifactId>
+                <version>${guru.nicks.commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>guru.nicks.commons</groupId>
                 <artifactId>messaging-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
@@ -93,7 +98,7 @@
             </dependency>
             <dependency>
                 <groupId>guru.nicks.commons</groupId>
-                <artifactId>aws-s3-starter</artifactId>
+                <artifactId>chart-starter</artifactId>
                 <version>${guru.nicks.commons.version}</version>
             </dependency>
 
