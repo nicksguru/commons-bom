@@ -7,7 +7,7 @@
     <groupId>guru.nicks.commons</groupId>
     <artifactId>bom</artifactId>
     <!-- WARNING: this version number is duplicated below -->
-    <version>100.260320.0</version><!-- BUNDLE_VERSION -->
+    <version>100.260322.0</version><!-- BUNDLE_VERSION -->
     <packaging>pom</packaging>
 
     <name>Nicks.Guru Commons BOM</name>
@@ -39,7 +39,7 @@
     </issueManagement>
 
     <properties>
-        <guru.nicks.commons.version>100.260320.0</guru.nicks.commons.version><!-- BUNDLE_VERSION -->
+        <guru.nicks.commons.version>100.260322.0</guru.nicks.commons.version><!-- BUNDLE_VERSION -->
     </properties>
 
     <dependencyManagement>
